@@ -9,7 +9,7 @@ counter=0   # set counter to 0
 
 MyNum=$(( $RANDOM % 50 + 20))
 
-echo "$MyNum"
+#echo "$MyNum"
 
 #while true is used here to keep prompt the user until they get it right
 while true; do
@@ -41,7 +41,7 @@ read -p  'Guess AGE between 20 and 70: '  answer
               [Yy] ) 
             counter=0
             MyNum=$(( $RANDOM % 50 + 20))
-            echo "$MyNum"
+            #echo "$MyNum"
         
             break
                ;;
